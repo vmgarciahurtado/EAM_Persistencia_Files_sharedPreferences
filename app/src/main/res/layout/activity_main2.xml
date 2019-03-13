@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.victor.files_sharedpreferences.Main2Activity">
+
+    <TextView
+        android:layout_marginTop="33dp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombre"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:id="@+id/txtApellido"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:id="@+id/txtEdad"/>
+    
+</LinearLayout>
