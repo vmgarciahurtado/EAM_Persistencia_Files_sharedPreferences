@@ -31,5 +31,5 @@
         android:textColor="#000"
         android:textSize="22dp"
         android:id="@+id/txtEdad"/>
-    
+
 </LinearLayout>

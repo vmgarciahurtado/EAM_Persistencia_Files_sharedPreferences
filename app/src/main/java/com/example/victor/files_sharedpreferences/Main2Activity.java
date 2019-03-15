@@ -17,6 +17,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //hola grupo
         setContentView(R.layout.activity_main2);
 
         txtNombre = findViewById(R.id.txtNombre);
@@ -32,7 +33,6 @@ public class Main2Activity extends AppCompatActivity {
         txtNombre.setText("Nombre: " + preferences.getString("nombre", "No existe el valor"));
         txtApellido.setText("Apellido: " + preferences.getString("apellido", "No existe el valor"));
         txtEdad.setText("Edad: " + preferences.getString("edad", "No existe el valor"));
-
         Toast.makeText(this, "Edad: " + preferences.getString("edad", "No existe el valor"), Toast.LENGTH_SHORT).show();
     }
 }
